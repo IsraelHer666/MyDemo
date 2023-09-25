@@ -14,6 +14,7 @@ boton.addEventListener("click", function () {
   var division = document.querySelectorAll("header ul li a")[1];
   var aprendere = document.querySelectorAll("header ul li a")[2];
   var inscribirme = document.querySelectorAll("header ul li a")[3];
+  var contacto = document.querySelectorAll("header ul li a")[4];
   var btn_modo = document.querySelectorAll(".darkbutton")[0];
   var logo = document.querySelector("header .logo img");
   var img_logo = document.querySelectorAll("span")[0];
@@ -38,6 +39,7 @@ boton.addEventListener("click", function () {
     division.style.color = "white";
     aprendere.style.color = "white";
     inscribirme.style.color = "white";
+    contacto.style.color = "white";
     btnFunction.style.backgroundColor="black";
     console.info("modo oscuro");
   }
@@ -53,6 +55,7 @@ boton.addEventListener("click", function () {
     division.style.color = "black";
     aprendere.style.color = "black";
     inscribirme.style.color = "black";
+    contacto.style.color = "black"
     btnFunction.style.backgroundColor="gray";
 
     console.info("modo luz");

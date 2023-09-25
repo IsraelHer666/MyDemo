@@ -1,2 +1,5 @@
 git init crea una carpeta con repositorio 
-git add añade archivos para darle seguimiento
+
+git add añade archivos al area de staging para
+saber si estos archivos son correctos para 
+empezar a commitear

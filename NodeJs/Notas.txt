@@ -1,0 +1,14 @@
+REPL- Node Read Eval Print Loop
+Es un entorno que nos permite 
+ingresar entradas en forma de codigo
+y obtener el resultado ingresamos 
+escribriendo  "node" en el cmd y 
+salimos con ctrl+c dos veces
+
+los modulos nativos son las herramientas
+que incluye node
+
+fs es un modulo que nos permite  crear, escribir, renombrar, copiar, mover, eliminar 
+(funciona como una importacion de libreria al que podemos hacer uso de sus metodos)
+
+callback se refiere a devolver algun status

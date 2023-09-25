@@ -1,0 +1,26 @@
+El evento blur se refiere a cuando salimos del campo de un formulario,
+
+El objeto "e" nos permite tomar informacion de un evento
+
+
+Lo siguiente, nos permite añadir HTML de manera dinamica tomando
+como referencia el padre de algun elemento.
+
+la posicion puede tener 4 valores
+    beforeend
+        afterend
+            beforebegin
+                 afterbegin
+Variable.parentChild.insertAdjacentHTML("posicion","texto");
+
+
+Variable.nextElementSibling === Nos da el siguiente elemento de la referencia
+Variable.nextElementSibling.innerHTML="Capturas tu mensaje"
+
+//Tambien se puede utilziar con insertAdjacentHTML.
+
+
+
+${codigoJS} //Nos permite introducir codigo JS dentro de una cadena
+
+el evento input se produce cada que se introduce un valore

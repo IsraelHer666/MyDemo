@@ -1,0 +1,485 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  padding: 0%;
+  margin: 0%;
+  overflow-x: hidden;
+}
+.darkmode {
+  display: flex;
+  justify-content: flex-end;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+}
+
+header ul {
+  display: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+  height: 35vw;
+}
+article{
+  display: block;
+}
+
+header img {
+  width: 30vw;
+}
+
+header i {
+  font-size: 8vw;
+  padding-right: 2rem;
+}
+
+header p {
+  text-align: center;
+  margin-right: 10%;
+  margin-top: 5%;
+}
+
+.card {
+  margin: auto;
+}
+
+.one {
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #fa3328;
+}
+
+.two {
+  display: flex;
+  text-align: center;
+  font-size: 4vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.two2 {
+  display: flex;
+  text-align: center;
+  font-size: 6vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-title {
+  font-weight: bolder;
+  color: blueviolet;
+}
+
+/* division */
+.Grid01 {
+  padding: 0% 5%;
+  margin: auto;
+  display: grid;
+  grid-template-areas:
+    "Part1     img1    "
+    "Part2     img2    "
+    "Part3     img3    ";
+  grid-template-rows: repeat(3, auto);
+  grid-template-columns: repeat(3, auto);
+  gap: 2vw;
+}
+
+.Part1 {
+  padding: 0% 5%;
+  grid-area: Part1;
+  background-color: #e9494980;
+}
+
+.Part2 {
+  padding: 0% 5%;
+  grid-area: Part2;
+  background-color: #4974e975;
+}
+
+.Part3 {
+  padding: 0% 5%;
+  grid-area: Part3;
+  background-color: #733df188;
+}
+
+.img1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: img1;
+  background-color: #e9494977;
+}
+
+.img2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: img2;
+  background-color: #4974e975;
+}
+
+.img3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: img3;
+  background-color: #733df188;
+}
+
+.text {
+  font-size: 1rem;
+  justify-content: center;
+}
+
+.text2 {
+  color: #e94949;
+  padding: 1% 2%;
+  font-size: 2rem;
+}
+
+.aprendermobile .ione {
+  font-size: 5rem;
+  color: #fdd133;
+}
+
+.aprendermobile .itwo {
+  font-size: 5rem;
+  color: #ffa115;
+}
+
+.aprendermobile .ithree {
+  font-size: 5rem;
+  color: #409bfb;
+}
+
+.sub {
+  font-family: cursive;
+  font-weight: bolder;
+  float: right;
+}
+
+.fs-2 {
+  font-weight: bolder;
+}
+
+.onediv {
+  margin-bottom: 10%;
+  padding: 0% 10%;
+}
+
+.twodiv {
+  margin-bottom: 10%;
+  padding: 0% 10%;
+}
+
+.threediv {
+  margin-bottom: 10%;
+  padding: 0% 10%;
+}
+
+.imgcontent {
+  padding: 3% 6%;
+  width: 30vw;
+}
+
+.aprenderdesktop {
+  display: none;
+}
+
+.introdesktop {
+  display: none;
+}
+
+.costos2 {
+  display: none;
+}
+header nav ul li a:hover {
+  color: #409bfb;
+}
+footer ul li a:hover {
+  background-color: #409afb8d;
+}
+.btnFunction input[type="checkbox"] {
+  display: none;
+}
+.btnoff {
+  display: none;
+}
+.btnFunction {
+  z-index: 1;
+  position: absolute;
+  background-color: #bcbcbca2;
+  height: 100%;
+  opacity: 90%;
+  width: 103.2%;
+}
+.btnFunction ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 7vw;
+  padding: 12% 1%;
+  list-style: none;
+  text-align: center;
+  font-weight: bolder;
+}
+.btnFunction ul li a {
+  text-decoration: none;
+  background-color: #7d41f4d0;
+  width: 100%;
+  margin-right: 5%;
+  color: #ffffff;
+}
+.anounce{
+  margin: 50% 0%;
+  padding: 0% 2%;
+}
+
+/* DISEÑO WEB */
+
+@media screen and (width>1275px) {
+  .anounce{
+    margin: 0% 0%;
+    padding: 0% 2%;
+  }
+  .darkmode {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 0% 1%;
+    height: 2vw;
+  }
+  .darkmode .boton {
+    width: fit-content;
+    padding: 0% 3%;
+  }
+
+  .intromobile {
+    display: none;
+  }
+
+  .introdesktop {
+    display: grid;
+    grid-template-areas: "item1     item2";
+    grid-template-rows: auto;
+    grid-template-columns: repeat(2, auto);
+  }
+
+  .itemdesk1 {
+    grid-area: item1;
+  }
+
+  .itemdesk2 {
+    margin-top: 20%;
+    grid-area: item2;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .two2 {
+    display: none;
+  }
+
+  header ul {
+    width: 100%;
+    display: block;
+  }
+
+  header ul li {
+    font-size: 1.5rem;
+    padding: 0% 5%;
+    list-style: none;
+    display: inline-flex;
+  }
+
+  header ul li a {
+    text-decoration: none;
+    width: fit-content;
+    color: black;
+  }
+
+  header {
+    padding: 0% 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    height: 10vw;
+  }
+
+  header img {
+    width: 10vw;
+  }
+
+  header p {
+    display: none;
+  }
+
+  .ham i {
+    display: none;
+  }
+
+  /* Article */
+  .one {
+    font-size: 4rem;
+  }
+
+  .two {
+    font-size: 2rem;
+  }
+
+  .Grid01 {
+    padding: 0% 5%;
+    margin: auto;
+    display: grid;
+    grid-template-areas:
+      "Part1     img1     img1"
+      "Part2     img2     img2"
+      "Part3     img3     img3";
+    grid-template-rows: repeat(3, auto);
+    grid-template-columns: repeat(3, auto);
+    gap: 1vw;
+  }
+
+  .Part1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 5%;
+    grid-area: Part1;
+    background-color: #e9494980;
+  }
+
+  .Part2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 5%;
+    grid-area: Part2;
+    background-color: #4974e975;
+  }
+
+  .Part3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 5%;
+    grid-area: Part3;
+    background-color: #733df188;
+  }
+
+  .img1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: img1;
+    background-color: #e9494977;
+  }
+
+  .img2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: img2;
+    background-color: #4974e975;
+  }
+
+  .img3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: img3;
+    background-color: #733df188;
+  }
+
+  .imgcontent {
+    padding: 3% 6%;
+    width: 30vw;
+  }
+
+  .text {
+    font-size: 1.7rem;
+    text-align: center;
+  }
+
+  .text2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+  }
+
+  .aprendermobile {
+    display: none;
+  }
+
+  .aprenderdesktop {
+    display: block;
+  }
+
+  .aprenderdesktop .icons {
+    font-size: 1em;
+  }
+
+  .aprenderdesktop .ione {
+    font-size: 5rem;
+    color: #fdd133;
+  }
+
+  .aprenderdesktop .itwo {
+    font-size: 5rem;
+    color: #ffa115;
+  }
+
+  .aprenderdesktop .ithree {
+    font-size: 5rem;
+    color: #409bfb;
+  }
+
+  .pay {
+    margin: 0% 20%;
+  }
+
+  .paylist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .costos1 {
+    display: none;
+  }
+
+  .costos2 {
+    display: block;
+    padding: 0% 40%;
+  }
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

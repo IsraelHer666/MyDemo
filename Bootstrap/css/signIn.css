@@ -1,0 +1,117 @@
+*{
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+}
+header ul {
+    display: none;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid black;
+    height: 25vw;
+  }
+  
+  header img {
+    width: 30vw;
+  }
+  
+  header p {
+    margin-top: 10%;
+    text-align: center;
+    font-size: 1.3rem;
+
+  } 
+  .two2{
+    width: 100%;
+    display: block;
+  }
+  .form form{
+    padding: 2%;
+    border: 1px solid black;
+    margin: 5% 15%;
+  }
+  
+.message{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2% 0%;
+}
+.well{
+  font-size: 1.5rem;
+  color: #099a06;
+}
+.message h2{
+  font-weight: bolder;
+  margin: 2% 4%;
+}
+.message{
+  font-weight: bold;
+}
+.error{
+  color: red;
+  font-style:italic;
+}
+.ok{
+  color: #099a06;
+  font-style: italic;
+}
+
+
+  @media screen and (width>1275px) {
+.two2{
+  padding-left: 20%;
+  width: 150%;
+  font-size: 200%;
+  display: block;
+}
+  header i{
+    display: none;
+  }
+  header {
+    padding: 0% 0%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-bottom: 1px solid black;
+    height: 10vw;
+  }
+
+  header img {
+    width: 10vw;
+  }
+
+  header p {
+    display: none;
+  }
+.form form{
+  padding: 2%;
+  border: 1px solid black;
+  margin: 5% 30%;
+}
+.message{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2% 0%;
+}
+.well{
+  font-size: 2rem;
+  color: #099a06;
+}
+.message{
+  font-weight: bold;
+}
+.error{
+  color: red;
+  font-style:italic;
+}
+.ok{
+  color: #099a06;
+  font-style: italic;
+}
+
+}

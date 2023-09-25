@@ -3,3 +3,8 @@ git init crea una carpeta con repositorio
 git add añade archivos al area de staging para
 saber si estos archivos son correctos para 
 empezar a commitear
+
+git diff sirve para ver las diferencias de un archivo con 
+control de versiones.
+
+git diff (nombre del archivo)

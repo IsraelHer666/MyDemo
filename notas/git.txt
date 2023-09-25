@@ -1,0 +1,2 @@
+git init crea una carpeta con repositorio 
+git add añade archivos para darle seguimiento

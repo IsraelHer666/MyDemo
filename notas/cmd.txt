@@ -1,1 +1,0 @@
-si utilizamos ls -a podemos ver todos los elementos ocultos

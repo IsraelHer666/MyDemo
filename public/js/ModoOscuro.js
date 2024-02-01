@@ -31,7 +31,7 @@ boton.addEventListener("click", function () {
     btn_modo.style.backgroundColor = "yellow";
     img_logo.innerHTML =
       "<i class='fa-solid fa-lightbulb fa-beat' style='color: #000000;'></i>";
-    logo.setAttribute("src", "/public/Imgs/LogoBlack.png");
+    logo.setAttribute("src", "/Imgs/LogoBlack.png");
     state.setAttribute("data-bs-theme", "dark");
     titulomodo.textContent = "Modo Claro";
     contenidomodo.textContent = "¿Activar el modo claro?";
@@ -47,7 +47,7 @@ boton.addEventListener("click", function () {
   else if (modo === "dark") {
     btn_modo.style.backgroundColor = "black";
     img_logo.innerHTML = "<i class='fa-solid fa-moon fa-beat'></i>";
-    logo.setAttribute("src", "/public/Imgs/Logo.png");
+    logo.setAttribute("src", "/Imgs/Logo.png");
     state.setAttribute("data-bs-theme", "light");
     titulomodo.textContent = "Modo Oscuro";
     contenidomodo.textContent = "¿Activar el modo oscuro?";
